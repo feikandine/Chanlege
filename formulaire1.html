@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire1.css">
+
+</head>
+
+<body>
+    <h2>Formulaire DWWM</h2>
+    <!-- debut formulaire-->
+    <form action="#">
+        <table>
+            <tr>
+                <td class="ff">
+                    <label for="name">Nom </label> </td>
+                <td> <input type="texte" id="name" name="user_name" placeholder="Entrez votre Nom" required></td>
+            </tr>
+            <!-- fin de la partie Nom -->
+            <tr>
+                <td class="ff"> <label for="mail">Email</label> </td>
+                <td> <input type="email" id="Email" name=user_email placeholder="Entre votre email"></td>
+            </tr>
+            <!-- fin Email-->
+            <tr>
+                <td class=dd> <label for="number">Indiquez Votre Satisfation 
+                au cours de 1 à 10</label></td>
+                <td><input type="number" id="number" name="number" placeholder="numero de 1 à 10"> </td><br>
+                <br>
+            </tr>
+            <!-- fin partie satisfaction-->
+            <tr>
+                <td class="dd"> <label for="name">Qui est Votre Coach?</label></td>
+                <td>
+                    <select id="coach">
+                        <option >Biranté</option> 
+                        <option>Malick</option>
+                        <option>Mamadou</option>
+                    </select><br>
+                    <br>
+                </td>
+            </tr>
+            <!-- fin partie Coach-->
+            <tr class="">
+                <td id="dd"><label for="msg" id="lab">Décrivez votre expérience jusque là</label> </td>
+                <td> <textarea name="user_message " id="msg" cols="30" rows="5" placeholder="Décrivez votre experience ici.."></textarea></td>
+            </tr>
+        </table>
+        <input class="bouton" type="button" value="Vérifier" onclick="maVerification()">
+        <div>
+            <!-- recuperatio -->
+            <h2 id="user_name"></h2>
+            <h2 id="user_email"></h2>
+            <h2 id="user_satifation"></h2>
+            <h2 id="user_Coach"></h2>
+            <h2 id="user_message"></h2>
+
+        </div>
+    </form>
+
+    <!-- fin du formulaire-->
+    <script src="formulaire.js"></script>
+</body>
+
+</html>

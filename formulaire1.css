@@ -1,0 +1,44 @@
+            body {
+                background-color: #A9D7E9;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            form {
+                background-color: #F3F3F3;
+                margin: 10px;
+                display: grid;
+                padding: 20px;
+                margin-left: 20%;
+                margin-right: 10%;
+                border-radius: 10px;
+            }
+            
+            .ff {
+                text-align: right;
+                padding: 10px;
+            }
+            
+            .dd {
+                text-align: right;
+                padding: 10px;
+                align-items: center;
+            }
+            
+            #lab {
+                text-align: right;
+                float: right;
+                margin-right: 10px;
+            }
+            
+            .bouton {
+                width: 100px;
+                height: 30px;
+                margin: auto;
+                background-color: #6BA2CE;
+                border: none;
+                border-radius: 5px;
+                margin-top: 15px;
+            }
